@@ -2,9 +2,7 @@ import { baseConfig } from "@/config";
 import { drizzle } from "drizzle-orm/node-postgres";
 import { NodePgDatabase } from "drizzle-orm/node-postgres";
 
-const relations = {
-
-};
+const relations = {};
 
 export const pgDb = drizzle(baseConfig.DATABASE_URL, {
   relations,

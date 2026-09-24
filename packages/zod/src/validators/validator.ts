@@ -12,5 +12,4 @@ export class Validator {
     }
     return { data: validatePayload.data, success: true };
   }
-
 }

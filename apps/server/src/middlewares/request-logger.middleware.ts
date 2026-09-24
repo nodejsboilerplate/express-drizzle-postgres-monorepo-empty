@@ -1,6 +1,6 @@
 import { baseConfig } from "@/config";
-import {  pinoLogger } from "@repo/shared";
-import {  logger } from "@/libs";
+import { pinoLogger } from "@repo/shared";
+import { logger } from "@/libs";
 import type { NextFunction, Request, Response } from "express";
 
 /**
